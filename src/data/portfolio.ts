@@ -8,7 +8,7 @@
 
 export const site = {
   /** Your live website address (used for SEO + share previews). */
-  url: "https://your-domain.com",
+  url: "https://devv-sneha.vercel.app",
   name: "Sneha",
   fullName: "Sneha Sharma",
   role: "Full Stack Developer | Specialized in Frontend Development",
@@ -19,7 +19,7 @@ export const site = {
   /** Shown as the green badge in the hero. Set to "" to hide. */
   availability: "",
   /** Put your PDF in the /public folder (e.g. /public/resume.pdf) and write "/resume.pdf" here. "" hides the buttons. */
-  resumeUrl: "",
+  resumeUrl: "/resume.pdf",
   keywords: ["Full Stack Developer", "Frontend Developer", "React.js", "Next.js", "TypeScript", "Redux Toolkit", "Node.js", "MERN Stack", "Portfolio"],
 };
 
@@ -95,7 +95,27 @@ export const projects: Project[] = [
     tagline: "Enterprise multi-tenant CMMS/CAFM platform for facilities, assets & maintenance operations.",
     description:
       "Perix is a multi-tenant, cloud-based Computerized Maintenance Management System (CMMS) & Facility Asset Management Platform (CAFM). It is built to streamline building operations, manage thousands of physical assets across multi-level property hierarchies, automate preventive maintenance workflows, and manage real-time work order dispatch for field technicians and vendors. I build and maintain the frontend modules for Assets, Work Orders, Maintenance Plans, Vendors, Locations and Technicians — including Hebrew/RTL support.",
-    tags: ["React 19", "TypeScript", "Vite", "Redux Toolkit", "Redux-Saga", "Tailwind CSS", "Axios", "Recharts"],
+    tags: [
+      "React 19",
+      "TypeScript",
+      "Vite",
+      "Redux Toolkit",
+      "Redux-Saga",
+      "Tailwind CSS",
+      "Axios",
+      "REST APIs",
+      "TanStack Virtual",
+      "Radix UI",
+      "Floating UI",
+      "Recharts",
+      "Chart.js",
+      "Tiptap",
+      "Quill",
+      "XLSX",
+      "React PDF",
+      "react-qr-code",
+      "i18next",
+    ],
     image: "/images/perix-screenshot.png",
     logo: "/images/perix-logo.png",
     liveUrl: "https://perix.dev.zangula.net/",
@@ -145,7 +165,7 @@ export const projects: Project[] = [
     tagline: "AI-powered shopping platform with personalized recommendations.",
     description:
       "TrendOra is a smart shopping platform built for a personalized, seamless online retail experience. It combines insight-driven product recommendations across categories like footwear, wearables, apparel and electronics with New Arrivals, Trending Now and Deals of the Week sections, fast delivery, exclusive discounts and secure checkout.",
-    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "E-commerce"],
+    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "E-commerce"],
     image: "/images/trendora-screenshot.png",
     logo: "/images/trendora-logo.png",
     liveUrl: "https://trend-ora.vercel.app/",
@@ -161,7 +181,7 @@ export const projects: Project[] = [
     tagline: 'Financial insights & investing platform — "Every market has a story."',
     description:
       "Kavix is a financial insights and investment content platform that helps users understand markets, businesses and long-term investing. It offers expert research and educational articles, free access to market insights, and lets users publish and share their own investing perspectives.",
-    tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vue"],
+    tags: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
     image: "/images/kavix-screenshot.png",
     logo: "/images/kavix-logo.png",
     liveUrl: "https://kavix-two.vercel.app/",
@@ -243,7 +263,7 @@ export const contact = {
   /** Line under the contact heading. */
   note: "Open to interesting frontend and full-stack projects, collaborations and professional opportunities.",
   links: [
-    { label: "GitHub", value: "@snehafreelance04-crypto", href: "https://github.com/snehafreelance04-crypto" },
+    { label: "GitHub", value: "@devvSneha", href: "https://github.com/devvSneha" },
     { label: "LinkedIn", value: "in/sneha-sharma-8158ba355", href: "https://www.linkedin.com/in/sneha-sharma-8158ba355" },
   ] satisfies ContactLink[],
 };
